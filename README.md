@@ -17,7 +17,7 @@ map the steps to JS.
 `testacular start`.  A test runner should open in a new instance of Chrome.
 Testacular is now monitoring for any changes to `js/spec/*.js` and 
 `js/src/*.js`.
-4. Start writing those failing tests in `js/spec/bowling.spec.js` the code
+4. Start writing those failing tests in `js/spec/bowling.spec.js` and the code
 make it pass in `js/src/bowling.js`.
 
-Examples of the final code are in `final/` directory.
+Examples of the final code are in `final/`.

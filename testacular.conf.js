@@ -1,24 +1,22 @@
 // Testacular configuration
-// Generated on Sat Jan 19 2013 09:47:51 GMT-0600 (CST)
-
+// Generated on Sat Jan 19 2013 10:33:40 GMT-0600 (CST)
 
 // base path, that will be used to resolve files and exclude
-basePath = '../../../../../..';
+basePath = '';
 
 
 // list of files / patterns to load in the browser
 files = [
   JASMINE,
   JASMINE_ADAPTER,
-	'js/lib/*.js',
-	'js/src/*.js',
+  'js/src/*.js',
   'js/spec/*.js'
 ];
 
 
 // list of files to exclude
 exclude = [
-  
+  '**/*.swp'
 ];
 
 
@@ -28,7 +26,7 @@ reporters = ['progress'];
 
 
 // web server port
-port = 8080;
+port = 8090;
 
 
 // cli runner port

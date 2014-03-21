@@ -1,0 +1,24 @@
+{
+  "name": "bowling-kata-seed",
+  "version": "1.0.0",
+  "description": "JavaScript Seed For Robert Martin's Bowling Game",
+  "main": "js/src/bowling.js",
+  "scripts": {
+    "test": "node_modules/.bin/karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nordyke/bowling-kata-seed.git"
+  },
+  "author": "Aaron Nordyke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nordyke/bowling-kata-seed/issues"
+  },
+  "homepage": "https://github.com/nordyke/bowling-kata-seed",
+  "devDependencies": {
+    "karma-jasmine": "~0.1.5",
+    "karma": "~0.12.1",
+    "karma-chrome-launcher": "~0.1.2"
+  }
+}
